@@ -1,9 +1,10 @@
-package org.example.Scanner;
+package org.example.scanner;
 
 import java.util.Scanner;
-public class MyScanner
-{
-    private static final Scanner scanner =new Scanner(System.in);
+
+public class MyScanner {
+    private static final Scanner scanner = new Scanner(System.in);
+
     public static int enterIntegerFromConsole() {
         while (!scanner.hasNextInt()) {
             scanner.next();
